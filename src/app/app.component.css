@@ -1,119 +1,415 @@
 .barra001 {
     display: flex;
-    align-items: center;
-    position: relative;
+    position: absolute; 
     margin: 0 auto;
-    height: 2,5em;
-    width: auto;
-    background-color: pink;
-    
-}
-
-
-.titulopaginainicial {
-    font-size: 3em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: Bold;
-    text-align: center;
-    vertical-align: text-bottom;
-    margin: 0;
-}
-.tituloinferiorpaginainicial {
-    font-size: 1.3em;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    text-align: center;
-    margin: 0;
-    vertical-align: text-top;
-}
-
-.labeltirasuperior{
-    font-size: 1em;
-    color: #FFFFFF;
-    font-weight: bold;
-    margin: auto;
-    font-family: Roboto;
-}
-
-/* 
-========================
-      BUTTON ONE
-========================
-*/
-
-.box-1 { 
-    background-color: #FFFFFF; 
-    display: inline-block;
- }
-
-.btn-one {
-    color: black;
-    transition: all 0.3s;
-    position: relative;
-    font-family: 'Montserrat';
-    font-size: 1.4em;
-    margin-left: 0.6em;
-    margin-right: 0.6em;
-}
-.btn-one span {
-    transition: all 0.3s;
-}
-.btn-one::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    padding-top: 0.5em;
+    height: 3em;
     width: 100%;
-    height: 100%;
+    background-color: #161414e1;
+    opacity: 0.8;
     z-index: 1;
-    opacity: 0;
-    transition: all 0.3s;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-top-color: black;
-    border-bottom-color: black;
-    transform: scale(0.1, 1);
-}
-.btn-one:hover span {
-    letter-spacing: 2px;
-}
-.btn-one:hover::before {
-    opacity: 1; 
-    transform: scale(1, 1); 
-}
-.btn-one::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    transition: all 0.3s;
-    background-color: rgba(255,255,255,0.1);
-}
-.btn-one:hover::after {
-    opacity: 0; 
-    transform: scale(0.1, 1);
-}
-
-
-/*
-    carousel - inicio
-*/
-.carousel-caption-eliane {
-    position: absolute;
-    bottom: 20px;
-    left: 2%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 3rem;
+    vertical-align: middle;
     color: #fff;
-    text-align: center;
-    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    font-size: medium;
 }
-/*
-    carousel - fim
-*/
+
+#barra01 { 
+    display:block;     
+}
+
+@media screen and (max-width: 500px) {
+    #barra01 { 
+        display:none; 
+    }
+    #divnavbarprincipalid {
+        top:0;
+    }
+
+    #navbarprincipal{
+        background-color: white;
+        color: #999999;
+    }
+
+    #brandlogoeiaid{
+        color: #c34b4c;
+        font-size: 1.7em;
+        margin-left: 1.2em;
+    }
+
+    #sidenav-trigger-eia-id{
+        display:block;
+    }
+
+    .itembarra00402div02-mb {
+        float: none !important;
+        text-align: center;
+        width: 100% !important;
+        margin-left: 0 !important;  
+        margin-right: 0 !important; 
+    }
+
+    .itembarra00402-mb {
+        float: none !important;
+        text-align: center; 
+        font-size: 0.8em !important;  
+     }
+    .imgcheckbarra004-mb {
+        float: none !important;
+    }
+    
+    .itembarra00402div01-mb{
+        padding-right: 0!important;
+        padding-left: 0!important;
+        
+    }
+    .barra005div-esq-mb {
+        float: none !important; 
+        width: 100% !important;
+        display: inline-block !important;
+    }
+    
+    .barra005div-direi-mb {
+        float: none !important; 
+        width: 100% !important;
+        display: inline-block !important;
+    }
+
+    .itembarra005-mb {
+         font-size: small;
+    }
+
+    .barra006-mb {
+        padding: 1em 1em 2em 1em !important;
+    }
+
+    .barra006depoimento-mb{
+        color: #fff!important; 
+    }
+
+    .barra005 {
+        padding: 1.5em 0.5em 1.5em 0.5em !important;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+    #sidenav-trigger-eia-id{
+        display:block;
+    }
+
+    .itembarra00402div02-mb {
+        float: none !important;
+        text-align: center;
+    }
+
+    .itembarra00402-mb {
+        float: none !important;
+        text-align: center; 
+        font-size: 1em !important;     
+    }
+    .itembarra00402div02-mb {
+        float: none !important;
+        width: 100% !important;
+        text-align: center;
+        margin-left: 0 !important;  
+        margin-right: 0 !important; 
+    }
+
+    .imgcheckbarra004-mb {
+        float: none !important;
+    }
+
+    .itembarra00402div01-mb{
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+
+    .barra005-mb {
+        padding: 1.5em !important;
+    }
+
+    .barra005div-esq-mb {
+        float: none !important; 
+        width: 100% !important;
+        display: inline-block !important;
+    }
+    
+    .barra005div-direi-mb {
+        float: none !important; 
+        width: 100% !important;
+        display: inline-block !important;
+    }
+    .itembarra005-mb {
+        font-size: medium;
+   }
+
+   .barra006-mb {
+    padding: 1em 1em 2em 1em !important;
+    }
+}
+
+.navbarprincipal{
+    display: flex;
+    position: absolute;
+    top: 2.2em;
+    width: 100%;
+}
+
+.nav-eia {
+    color: #fff;
+    background-color: transparent;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    visibility: visible;
+    border: none;
+}
+
+.nav-wrapper-eia {
+    position: relative;
+    height: 100%;
+}
+
+.material-icons-eia {
+    text-rendering: optimizeLegibility;
+    font-feature-settings: 'liga';
+    color: #999999;
+    display: block;
+    font-size: 24px;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: none;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+}
+
+.brand-logo-eia {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+    margin-left: 1.5em;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.brand-logo-eia:hover{
+    text-decoration:none;
+}
+
+.setorimagem {
+    background-position: center center;
+    height: 16em;
+    min-height: 10em;
+    max-height: 23em;
+}
+
+.sidenav-trigger-eia {
+    float: right;
+    position: relative;
+    z-index: 1;
+    height: 56px;
+    margin: 0 20px;
+    display: none;
+}
+
+.setorimagem.loaded {
+    opacity: 1;
+}
+.barra003 {
+    background-color: #f3f3f3;
+    min-height: auto;
+    max-height: auto;
+    margin: auto;
+    position: inherit;
+    width: 100%;
+    padding: 4rem;
+    text-align: center;
+}
+
+.barra004-cabecalho{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.texto003 {
+    font-family: "Open Sans";
+    line-height: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: #444444;
+    font-size: 0.8em;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+
+/* */
+.barra00402 {
+    padding-top: 25px !important;
+    padding-bottom: 45px !important;
+    background-image: url(http://mfdsgn.com/mfd1/wp-content/uploads/2017/10/progress-bars-parallax-1.jpg?id=27640) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    text-align: center;
+
+}
+.barra00402title {
+    font-size: 30px;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0 0 0.1px;
+    color: #fff;
+}
+
+.barra00403title {
+    font-size: 30px;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0 0 0.1px;
+    color: #000;
+}
+
+.barrinhabranca {
+    width: 5em;
+    height: 0.2em;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 0.1em;
+    z-index: 2;
+
+}
+
+.barrinhavermelha {
+    width: 5em;
+    height: 0.2em;
+    background-color: #c34b4c;
+    display: inline-block;
+    margin-top: 0.1em;
+    z-index: 2;
+
+}
+
+.itembarra00402div01{
+    display: inline-block;
+    margin-top: 1rem;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+.imgcheckbarra004 {
+    float: left;
+    width: 2rem;
+}
+.itembarra00402div02 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    min-width: 4em;
+    text-align: center;
+}
+.itembarra00402 {
+    margin-left: 2em;
+    margin-bottom: 1em;
+    margin-right: 2em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    color: #fff;
+    float: none;
+}
+
+
+.barra005 {
+    margin: 0 auto;
+    width: 100%; 
+    text-align: center;
+    padding: 1.5em 2em 1.5em 2em;
+    display: flow-root;
+}
+
+.barra005div-esq {
+    float: left; 
+    width: 30%;
+}
+
+.barra005div-direi {
+    float: left; 
+    width: 70%;
+}
+
+.itembarra005 {
+    margin-left: 2em;
+    margin-bottom: 1em;
+    margin-right: 2em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+
+.barra006 {
+background-image: url(../assets/elianeadvogada/images/mt-1030-home-bg3-1536x610.jpg?id=27640) !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+background-size: cover !important;
+text-align: center;
+width: 100%;
+padding: 1em 2em 2em 2em;
+}
+
+.carousel-eliane {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 430px;
+     perspective: 500px;
+    transform-style: preserve-3d;
+    transform-origin: 0% 50%;
+}
+
+.container-eliane {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.barra006depoimento{
+    font-style: italic; 
+    font-size: medium; 
+    color: #fff; 
+}
+
+.barra006depoimentosaibamais {
+    font-style: italic; 
+    font-weight: bold; 
+    font-size: medium; 
+    color: #fff; 
+    float: right;
+}
+
+.barra006depoimentosaibamais:hover {
+    font-weight: bolder; 
+    text-decoration: none;
+}
+
+.barra006divdepoim {
+    display: table-cell;
+    vertical-align: middle;
+    height: 20em;
+    text-align: center;
+    max-width: 40em;
+    margin:0 auto;
+}
