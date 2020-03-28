@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import * as AOS from 'aos';
 
 
 @Component({
@@ -9,4 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent  {
   Title = 'Eliane-Advogada';
+
+  ngOnInit(): void {
+
+    AOS.init();
+  
+  }
+
 }
+
