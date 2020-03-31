@@ -45,7 +45,7 @@
   color: #c34b4c;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   #barra01 {
     display: none;
   }
@@ -99,7 +99,7 @@
     width: 100%;
     vertical-align: middle;
   }
-  
+
   .itensMenuMobileli:hover {
     background-color: #f9f9f9;
     color: black;
@@ -130,7 +130,21 @@
     float: none !important;
     display: initial !important;
   }
+.barra00402{
+    padding-bottom: 2rem !important;
+}
 
+  .barra004div02-mb {
+    width: 100% !important;
+    float: none !important;
+    margin-bottom: 2rem;
+    display: inline-block;
+  }
+  .btn-area001-mb {
+    width: 20rem !important;
+    height: 10rem !important;
+    font-size: 2rem !important;
+  }
   .itembarra00402div02-mb {
     float: none !important;
     text-align: center;
@@ -224,7 +238,7 @@
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 1000px) {
+@media screen and (min-width: 601px) and (max-width: 1000px) {
   #sidenav-trigger-eia-id {
     display: block;
   }
@@ -257,7 +271,7 @@
     width: 12rem;
     vertical-align: middle;
   }
-  
+
   .itensMenuMobileli:hover {
     background-color: rgba(175, 165, 165, 0.219);
     color: black;
@@ -289,6 +303,12 @@
     text-align: center;
     margin-left: 0 !important;
     margin-right: 0 !important;
+  }
+
+  .btn-area001-mb {
+    width: 20rem !important;
+    height: 10rem !important;
+    font-size: 2rem !important;
   }
 
   .imgcheckbarra004-mb {
@@ -452,7 +472,7 @@
 /* */
 .barra00402 {
   padding-top: 25px !important;
-  padding-bottom: 8rem !important;
+  padding-bottom: 20rem;
   background-image: url(http://mfdsgn.com/mfd1/wp-content/uploads/2017/10/progress-bars-parallax-1.jpg?id=27640) !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -496,6 +516,83 @@
   margin-top: 0.1em;
   z-index: 2;
 }
+
+
+.barra004div02 {
+    width: 50%;
+    text-align: center;
+    float: left;
+  }
+
+  .btn-areacriminal001 {
+    position: relative;
+    display: inline-block;
+    color: #333;
+    font-size: 3rem;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 2.5rem;
+    overflow: hidden;
+    transition: 1s all ease;
+    text-align: center;
+    vertical-align: middle;
+    width: 27rem;
+    height: 13rem;
+    background-image: url('../../assets/elianeadvogada/images/criminalbtn002.jpg');
+    opacity: 0.7;
+  }
+
+  .btn-areacriminal001:hover {
+    color:#333;
+    opacity: 1;
+  }
+  .btn-areacriminal001::before {
+    opacity: 1;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+  }
+
+  .btn-areafamilia001 {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 3rem;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 2.5rem;
+    overflow: hidden;
+    transition: 1s all ease;
+    text-align: center;
+    vertical-align: middle;
+    width: 27rem;
+    height: 13rem;
+    background-image: url('../../assets/elianeadvogada/images/familiabtn001.jpg');
+    opacity: 0.7;
+  }
+
+  .btn-areafamilia001:hover {
+    color: #ffffff;
+    opacity: 1;
+  }
+  .btn-areafamilia001::before {
+    opacity: 1;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+  }
 
 .itembarra00402div01 {
   display: inline-block;
@@ -553,7 +650,6 @@
 }
 
 .barra006 {
-  background-image: url(../../assets/elianeadvogada/images/mt-1030-home-bg3-1536x610.jpg?id=27640) !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;

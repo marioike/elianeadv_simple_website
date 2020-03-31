@@ -9,7 +9,7 @@
     if (x.style.height === "220px") {
       x.style.height="0";
     } else {
-      x.style.height="220px";;
+      x.style.height="220px";
     }
   }
 

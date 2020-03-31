@@ -8,6 +8,7 @@ import { TituloPaginaInicialComponent } from './eliane-componentes/titulo-pagina
 import { ElianeAosComponent } from './eliane-componentes/eliane-aos/eliane-aos/eliane-aos.component';
 import { ElianeCriminalComponent } from './eliane-criminal/eliane-criminal.component';
 import { ElianeFamiliaComponent } from './eliane-familia/eliane-familia.component';
+import { ElianeHomeComponent } from './eliane-home/eliane-home.component';
 
 
 
@@ -17,7 +18,8 @@ import { ElianeFamiliaComponent } from './eliane-familia/eliane-familia.componen
     TituloPaginaInicialComponent,
     ElianeAosComponent,
     ElianeCriminalComponent,
-    ElianeFamiliaComponent
+    ElianeFamiliaComponent,
+    ElianeHomeComponent
 
   ],
   imports: [
