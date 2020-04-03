@@ -453,7 +453,7 @@
 .barra00402 {
   padding-top: 25px !important;
   padding-bottom: 8rem !important;
-  background-image: url('/assets/elianeadvogada/progress-bars-parallax-1.jpg?id=27640') !important;
+  background-image: url('/assets/elianeadvogada/images/progress-bars-parallax-1.jpg') !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -553,7 +553,7 @@
 }
 
 .barra006 {
-  background-image: url(../../assets/elianeadvogada/images/mt-1030-home-bg3-1536x610.jpg?id=27640) !important;
+  background-image: url('/assets/elianeadvogada/images/fivestar.jpg') !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
