@@ -27,7 +27,9 @@ import { ElianeHomeComponent } from './eliane-home/eliane-home.component';
     AppRoutingModule,
     routing
   ],
-  providers: [],
+  providers: [
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,7 +1,7 @@
 <div class="barra001" id="barra01" data-aos="fade-down">
   <div style="width: 40%;">
     <img
-      src="../../assets/elianeadvogada/images/whatsapp-32.png"
+      src="/assets/elianeadvogada/images/whatsapp-32.png"
       alt=""
       style="float:left;"
     />
@@ -30,38 +30,32 @@
       </div>
 
       <ul id="nav-mobile" class="right-eia hide-on-med-and-down-eia">
-        <li><a href="/criminal">Criminal</a></li>
-        <li><a href="/familia">Familia</a></li>
-        <li><a href="/home/#a-doutora">A Doutora</a></li>
-        <li><a href="/home/#os-depoimentos">Depoimentos</a></li>
-        <li><a href="/home/#o-contato">Contato</a></li>
+        <li><a routerLink="/criminal">Criminal</a></li>
+        <li><a routerLink="/familia">Familia</a></li>
+        <li><a routerLink="/" fragment="a-doutora">A Doutora</a></li>
+        <li><a routerLink="/" fragment="os-depoimentos">Depoimentos</a></li>
+        <li><a routerLink="/" fragment="o-contato">Contato</a></li>
       </ul>
     </div>
     <div id="myLinks-eia" data-aos="fade-down">
       <ul style="list-style-type: none;">
         <li class="itensMenuMobileli">
-          <a href="/criminal" class="itensMenuMobile itensMenuMobile-mb"
+          <a routerLink="/criminal" class="itensMenuMobile itensMenuMobile-mb"
             >Criminal</a
           >
         </li>
         <li class="itensMenuMobileli">
-          <a
-            href="/familia/#a-doutora"
-            class="itensMenuMobile itensMenuMobile-mb"
+          <a routerLink="/familia" class="itensMenuMobile itensMenuMobile-mb"
+            >Família</a
+          >
+        </li>
+        <li class="itensMenuMobileli">
+          <a routerLink="/" fragment="a-doutora" class="itensMenuMobile itensMenuMobile-mb"
             >A Doutora</a
           >
         </li>
         <li class="itensMenuMobileli">
-          <a
-            href="/familia/#os-depoimentos"
-            class="itensMenuMobile itensMenuMobile-mb"
-            >Depoimentos</a
-          >
-        </li>
-        <li class="itensMenuMobileli">
-          <a
-            href="/familia/#o-contato"
-            class="itensMenuMobile itensMenuMobile-mb"
+          <a routerLink="/" fragment="o-contato" class="itensMenuMobile itensMenuMobile-mb"
             >Contato</a
           >
         </li>
@@ -72,20 +66,17 @@
 
 <div
   class="setorimagem"
-  style='background-image: url("../../assets/elianeadvogada/images/architecture-2602324_1280.jpg");'
+  style='background-image: url("/assets/elianeadvogada/images/architecture-2602324_1280.jpg");'
   data-img-width="1024"
   data-img-height="683"
 >
-  <div
-    style="position: absolute; margin-top: 10rem; width: 100%; text-align: center; padding-left: 3rem; padding-right: 3rem;"
-    data-aos="fade-up"
-  >
+  <div class="tituloGrandeTotal" data-aos="fade-up">
     <section>
       <p class="barra002title01grande barra002title01grande-mb">
         Direito Criminal e Família
       </p>
       <p class="barra002title01pequeno barra002title01pequeno-mb">
-        Defesas - Processos - Representações - Acompanhamentos  
+        Defesas - Processos - Representações - Acompanhamentos
       </p>
     </section>
   </div>
@@ -94,7 +85,7 @@
 <div class="barra003" data-aos="fade-up">
   <p class="barra004-cabecalho">Precisando de assistência jurídica?</p>
   <img
-    src="../assets/elianeadvogada/images/mf-law.png"
+    src="/assets/elianeadvogada/images/mf-law.png"
     style="margin-left: auto; margin-right: auto; margin-bottom: 2rem; display: block;"
   />
   <div class="middle-eliane middle-eliane-mb">
@@ -117,15 +108,19 @@
   <section style="margin-top: 3rem; margin-bottom: 5rem;">
     <div class="barra004div02 barra004div02-mb">
       <a
-        href="/criminal"
+        routerLink="/criminal"
+        routerLinkActive="active"
         class="btn-areacriminal001 btn-area001-mb"
-        >Casos Penais</a>
+        >Casos Penais</a
+      >
     </div>
     <div class="barra004div02 barra004div02-mb">
       <a
-        href="/familia"
+        routerLink="/familia"
+        routerLinkActive="active"
         class="btn-areafamilia001 btn-area001-mb"
-        > Casos Família</a
+      >
+        Casos Família</a
       >
     </div>
   </section>
@@ -136,7 +131,7 @@
   <div class="barrinhavermelha"></div>
   <br /><br />
   <div class="barra005div-esq barra005div-esq-mb" data-aos="fade-up">
-    <img src="../assets/elianeadvogada/images/drEliane.png" /><br />
+    <img src="/assets/elianeadvogada/images/drEliane.png" /><br />
     <p class="itembarra005" style="margin-top: 1em;">
       <b>Dra. Eliane Ikeno</b><br />
       OAB/SP Nº 138.439
@@ -161,7 +156,7 @@
 <div
   id="os-depoimentos"
   class="barra006 barra006-mb"
-  style='background-image: url("../../assets/elianeadvogada/images/fivestar.jpg");'
+  style='background-image: url("/assets/elianeadvogada/images/fivestar.jpg");'
   data-img-width="1024"
   data-img-height="683"
 >

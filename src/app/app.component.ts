@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import * as AOS from 'aos';
 
 
@@ -15,6 +15,13 @@ export class AppComponent  {
     AOS.init();
   
   }
+
+  onActivate(event) {
+    window.scroll(0,0);
+    //or document.body.scrollTop = 0;
+    //or document.querySelector('body').scrollTo(0,0)
+    
+}
 
 }
 
