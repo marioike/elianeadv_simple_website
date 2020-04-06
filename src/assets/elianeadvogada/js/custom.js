@@ -6,10 +6,10 @@
 
   function menuMobile() {
     var x = document.getElementById("myLinks-eia");
-    if (x.style.height === "220px") {
+    if (x.style.height === "270px") {
       x.style.height="0";
     } else {
-      x.style.height="220px";
+      x.style.height="270px";
     }
   }
 

@@ -270,7 +270,7 @@
 
   #myLinks-eia {
     background-color: transparent !important;
-    width: 73%;
+    width: 91% !important; 
     margin-left: auto;
     margin-right: auto;
   }
@@ -543,7 +543,7 @@
   .btn-areacriminal001 {
     position: relative;
     display: inline-block;
-    color: #333;
+    color: #000;
     font-size: 3rem;
     font-family: "Open Sans";
     font-weight: bold;

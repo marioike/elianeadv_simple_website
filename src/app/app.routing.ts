@@ -12,7 +12,7 @@ const APP_ROUTES: Routes = [
 
 const routerOptions: ExtraOptions = {
     useHash: false,
-    anchorScrolling: 'enabled',
+    anchorScrolling: 'enabled'
     // ...any other options you'd like to use
   };
 
